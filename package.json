@@ -1,0 +1,68 @@
+{
+  "name": "@zenloop/react-native-sdk",
+  "version": "1.0.0",
+  "description": "Native React Native SDK for embedding Zenloop surveys with customizable themes and full TypeScript support",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build && npm test && npm run lint",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "zenloop",
+    "survey",
+    "react-native",
+    "sdk",
+    "mobile",
+    "nps",
+    "csat",
+    "feedback",
+    "native",
+    "typescript",
+    "expo",
+    "ios",
+    "android"
+  ],
+  "author": {
+    "name": "Zenloop",
+    "email": "support@zenloop.com",
+    "url": "https://zenloop.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/zenloop/react-native-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenloop/react-native-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zenloop/react-native-sdk/issues"
+  },
+  "files": [
+    "lib/**/*",
+    "README.md",
+    "CONTRIBUTING.md",
+    "docs/**/*"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.12",
+    "@types/react-native": "^0.72.8",
+    "typescript": "^5.9.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
