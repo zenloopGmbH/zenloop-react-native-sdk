@@ -1,4 +1,4 @@
-# Zenloop React Native SDK
+# zenloop React Native SDK
 
 A comprehensive React Native SDK for embedding Zenloop surveys directly into your mobile applications. This SDK provides native UI components for rendering surveys without the need for WebViews, ensuring optimal performance and seamless integration with your app's design system.
 
@@ -387,10 +387,6 @@ Make sure you have the correct versions:
 }
 ```
 
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md) for details.
-
 ### Development Setup
 
 1. Clone the repository
@@ -398,9 +394,6 @@ We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md)
 3. Build the SDK: `npm run build`
 4. Run the example app to test changes
 
-## License
-
-MIT © [Zenloop](https://zenloop.com)
 
 ## Support
 
